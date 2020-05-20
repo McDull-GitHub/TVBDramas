@@ -7,4 +7,4 @@ download_torrent=$(curl -L "http://www.tvboxnow.com/$link2download" | grep å¦‚æž
 echo http://www.tvboxnow.com/$download_torrent
 echo http://www.tvboxnow.com/$download_torrent
 echo http://www.tvboxnow.com/$download_torrent
-curl - -L http://www.tvboxnow.com/$download_torrent
+curl -o $EP.torrent -L http://www.tvboxnow.com/$download_torrent
