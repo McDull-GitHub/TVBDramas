@@ -1,4 +1,4 @@
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/McDull-GitHub/TVBDramas/master/hmd2.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/McDull-GitHub/TVBDramas/master/Life-After-Death.sh)"
 n=3 #`aria2c -S *.torrent | grep mp4 | cut -c1`
 aria2c --seed-time=0 --select-file=$n *.torrent
 rm *.aria2
